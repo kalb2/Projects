@@ -17,12 +17,12 @@ function App() {
     <ChangeAge></ChangeAge>
     <UpdateName></UpdateName> */}
     {/* <UserList></UserList> */}
-    {/* <SimpleTodo></SimpleTodo> */}
+    <SimpleTodo></SimpleTodo>
     {/* <Fetch></Fetch> */}
     {/* <Array></Array> */}
     {/* <LocalStorage></LocalStorage> */}
     {/* <StateForm></StateForm> */}
-    <RefForm></RefForm>
+    {/* <RefForm></RefForm> */}
 </div>
   )
 }
