@@ -1,10 +1,17 @@
 import {useState} from 'react'
 
-export default function UpdateName(){
-	const [name, setName] = useState("Sam")
+const nameList = ["Sam", "Kaleb", "Alex", "Sean"]
 
-function changeName (){
-	setName("Kaleb")
+export default function UpdateName(){
+	const [name, setName] = useState(nameList)
+// function changeName (){
+// 	setName("Kaleb")
+// }
+
+function changeName () {
+	setName(currentName => {
+		return currentName.slice(1)
+	});
 }
 
 return (

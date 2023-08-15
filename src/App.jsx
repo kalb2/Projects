@@ -8,16 +8,20 @@ import Array from "./UseArray/Array"
 import LocalStorage from "./UseLocalStorage/LocalStorage"
 import StateForm from "./BasicForm/StateForm"
 import RefForm from "./BasicForm/RefForm"
+import ArrayState from "./ArrayState/arrayState"
+import Effect from "./useEffect/Effect"
 
 function App() {
 
   return (
 <div>
-    {/* <Counter></Counter>
-    <ChangeAge></ChangeAge>
-    <UpdateName></UpdateName> */}
+    {/* <Counter></Counter> */}
+    {/* <ChangeAge></ChangeAge> */}
+    {/* <ArrayState></ArrayState> */}
+    {/* <UpdateName></UpdateName> */}
+    <Effect></Effect>
     {/* <UserList></UserList> */}
-    <SimpleTodo></SimpleTodo>
+    {/* <SimpleTodo></SimpleTodo> */}
     {/* <Fetch></Fetch> */}
     {/* <Array></Array> */}
     {/* <LocalStorage></LocalStorage> */}
