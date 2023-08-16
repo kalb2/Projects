@@ -10,6 +10,7 @@ import StateForm from "./BasicForm/StateForm"
 import RefForm from "./BasicForm/RefForm"
 import ArrayState from "./ArrayState/arrayState"
 import Effect from "./useEffect/Effect"
+import BasicFetch from "./BasicFetch/BasicFetch"
 
 function App() {
 
@@ -19,10 +20,11 @@ function App() {
     {/* <ChangeAge></ChangeAge> */}
     {/* <ArrayState></ArrayState> */}
     {/* <UpdateName></UpdateName> */}
-    <Effect></Effect>
+    {/* <Effect></Effect> */}
     {/* <UserList></UserList> */}
     {/* <SimpleTodo></SimpleTodo> */}
     {/* <Fetch></Fetch> */}
+    <BasicFetch></BasicFetch>
     {/* <Array></Array> */}
     {/* <LocalStorage></LocalStorage> */}
     {/* <StateForm></StateForm> */}
