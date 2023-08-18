@@ -22,9 +22,9 @@ function App() {
     {/* <UpdateName></UpdateName> */}
     {/* <Effect></Effect> */}
     {/* <UserList></UserList> */}
-    {/* <SimpleTodo></SimpleTodo> */}
+    <SimpleTodo></SimpleTodo>
     {/* <Fetch></Fetch> */}
-    <BasicFetch></BasicFetch>
+    {/* <BasicFetch></BasicFetch> */}
     {/* <Array></Array> */}
     {/* <LocalStorage></LocalStorage> */}
     {/* <StateForm></StateForm> */}
